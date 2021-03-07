@@ -1,0 +1,41 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1590666221347,5794,01_NavigateToWebsite,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,71837,2216,5,5,null,0,314,0
+1590666221744,5401,01_NavigateToWebsite,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,72288,2216,5,5,null,0,310,0
+1590666222045,5401,43 /,200,OK,Thread Group 1-5,text,true,,72288,2216,5,5,https://blazedemo.com/,2511,0,1288
+1590666221648,5794,43 /,200,OK,Thread Group 1-3,text,true,,71837,2216,5,5,https://blazedemo.com/,2900,0,1685
+1590666220959,6314,01_NavigateToWebsite,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,72456,2216,5,5,null,0,396,0
+1590666221353,6314,43 /,200,OK,Thread Group 1-1,text,true,,72456,2216,5,5,https://blazedemo.com/,3061,0,1980
+1590666221151,6293,01_NavigateToWebsite,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,72080,2216,5,5,null,0,304,0
+1590666221454,6293,43 /,200,OK,Thread Group 1-2,text,true,,72080,2216,5,5,https://blazedemo.com/,2378,0,1877
+1590666221545,6137,01_NavigateToWebsite,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,71937,2216,5,5,null,0,301,0
+1590666221846,6137,43 /,200,OK,Thread Group 1-4,text,true,,71937,2216,5,5,https://blazedemo.com/,1969,0,1483
+1590666227984,2958,02_Reseve,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,72725,2964,5,5,null,0,2,0
+1590666227985,2958,66 /reserve.php,200,OK,Thread Group 1-4,text,true,,72725,2964,5,5,https://blazedemo.com/reserve.php,443,0,0
+1590666227670,3513,02_Reseve,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,72545,2956,5,5,null,0,3,0
+1590666227671,3513,66 /reserve.php,200,OK,Thread Group 1-1,text,true,,72545,2956,5,5,https://blazedemo.com/reserve.php,767,0,307
+1590666227457,4246,02_Reseve,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,71706,2963,5,5,null,0,3,0
+1590666227458,4246,66 /reserve.php,200,OK,Thread Group 1-3,text,true,,71706,2963,5,5,https://blazedemo.com/reserve.php,817,0,304
+1590666230944,3236,03_ChooseThisFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,72311,3077,5,5,null,0,3,0
+1590666230945,3236,81 /purchase.php,200,OK,Thread Group 1-4,text,true,,72311,3077,5,5,https://blazedemo.com/purchase.php,521,0,0
+1590666231185,3155,03_ChooseThisFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,72948,3067,5,5,null,0,1,0
+1590666231186,3155,81 /purchase.php,200,OK,Thread Group 1-1,text,true,,72948,3067,5,5,https://blazedemo.com/purchase.php,435,0,0
+1590666231705,3372,03_ChooseThisFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,72482,3073,5,5,null,0,1,0
+1590666231706,3372,81 /purchase.php,200,OK,Thread Group 1-3,text,true,,72482,3073,5,5,https://blazedemo.com/purchase.php,794,0,316
+1590666234342,3154,04_PurchaseThisFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,72478,3244,5,5,null,0,1,0
+1590666234342,3154,82 /confirmation.php,200,OK,Thread Group 1-1,text,true,,72478,3244,5,5,https://blazedemo.com/confirmation.php,470,0,0
+1590666234182,3374,04_PurchaseThisFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,72660,3236,4,4,null,0,2,0
+1590666234183,3374,82 /confirmation.php,200,OK,Thread Group 1-4,text,true,,72660,3236,4,4,https://blazedemo.com/confirmation.php,452,0,0
+1590666235079,3132,04_PurchaseThisFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,72356,3246,3,3,null,0,0,0
+1590666235079,3132,82 /confirmation.php,200,OK,Thread Group 1-3,text,true,,72356,3246,3,3,https://blazedemo.com/confirmation.php,450,0,0
+1590666227750,23264,02_Reseve,200,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-2,,false,,45860,2458,2,2,null,0,3,0
+1590666227751,23264,66 /reserve.php,200,"Embedded resource download error:http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js code:Non HTTP response code: org.apache.http.conn.HttpHostConnectException message:Non HTTP response message: Connect to ajax.googleapis.com:80 [ajax.googleapis.com/216.58.210.10] failed: Connection timed out: connect, ",Thread Group 1-2,text,false,,45860,2458,2,2,https://blazedemo.com/reserve.php,498,0,0
+1590666227457,23905,02_Reseve,200,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-5,,false,,46092,2457,2,2,null,0,2,0
+1590666227458,23905,66 /reserve.php,200,"Embedded resource download error:http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js code:Non HTTP response code: org.apache.http.conn.HttpHostConnectException message:Non HTTP response message: Connect to ajax.googleapis.com:80 [ajax.googleapis.com/216.58.210.10] failed: Connection timed out: connect, ",Thread Group 1-5,text,false,,46092,2457,2,2,https://blazedemo.com/reserve.php,732,0,174
+1590666251016,3271,03_ChooseThisFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,73001,3072,2,2,null,0,1,0
+1590666251017,3271,81 /purchase.php,200,OK,Thread Group 1-2,text,true,,73001,3072,2,2,https://blazedemo.com/purchase.php,484,0,0
+1590666251364,3432,03_ChooseThisFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,72528,3069,2,2,null,0,1,0
+1590666251364,3432,81 /purchase.php,200,OK,Thread Group 1-5,text,true,,72528,3069,2,2,https://blazedemo.com/purchase.php,833,0,180
+1590666254288,3234,04_PurchaseThisFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,72092,3234,2,2,null,0,0,0
+1590666254288,3234,82 /confirmation.php,200,OK,Thread Group 1-2,text,true,,72092,3234,2,2,https://blazedemo.com/confirmation.php,458,0,0
+1590666254797,3390,04_PurchaseThisFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,71897,3248,1,1,null,0,1,0
+1590666254797,3390,82 /confirmation.php,200,OK,Thread Group 1-5,text,true,,71897,3248,1,1,https://blazedemo.com/confirmation.php,474,0,0
